@@ -11,6 +11,7 @@
   <description>AWS Code Samples From Rayfocus</description>
 
   <modules>
+	<module>aws-parent</module>
     <module>aws-step-functions</module>
   </modules>
   

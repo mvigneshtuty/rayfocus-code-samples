@@ -4,19 +4,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>aws-step-functions</artifactId>
-	<packaging>jar</packaging>
+	<groupId>com.rayfocus.aws</groupId>
+	<artifactId>aws-parent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 
-	<name>aws-step-functions</name>
-	<description>AWS Step Functions</description>
-	
-	<parent>
-      <groupId>com.rayfocus.aws</groupId>
-      <artifactId>aws-parent</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-      <relativePath>../aws-parent/pom.xml</relativePath>
-    </parent>
-    
+	<name>aws-parent</name>
+	<description>AWS Code Samples Parent POM</description>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
