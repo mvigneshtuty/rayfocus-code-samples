@@ -16,7 +16,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 
 public class GreeterActivities {
 	
-	private static final String ACTIVITY_ARN = "arn:aws:states:us-east-1:744223441980:activity:activity_get_greeting";
+	private static final String ACTIVITY_ARN = "STEP-FUNCTIONS_ACTIVITY_ARN";
 	
 	public static void main(String[] args) throws InterruptedException {
 		ClientConfiguration clientConfig = new ClientConfiguration().
