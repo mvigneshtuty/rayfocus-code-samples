@@ -57,10 +57,6 @@ public class GreeterActivities {
 	private static String getOutputAsJsonString(JsonNode json) {
 		String who = json.get("who").textValue();
 		String greetingMessage = json.get("greetingMessage").textValue();
-<<<<<<< HEAD
 		return "{\"result\" : \"Hello "+who+"! "+ greetingMessage +"\"}";
-=======
-		return "{\"result\" : \""+who+"! "+ greetingMessage +"\"}";
->>>>>>> 41aec94603ed7e98ab096294bb35d28a98432126
 	}
 }
