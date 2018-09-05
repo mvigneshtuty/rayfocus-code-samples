@@ -11,6 +11,7 @@
   <description>Java Code Samples From Rayfocus</description>
 
   <modules>
+	<module>java-parent</module>
     <module>java-core</module>
 	<module>java-util-apps</module>
   </modules>

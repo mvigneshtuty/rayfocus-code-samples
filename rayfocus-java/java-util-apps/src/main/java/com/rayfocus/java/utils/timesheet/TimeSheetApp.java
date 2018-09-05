@@ -3,8 +3,8 @@ package com.rayfocus.java.utils.timesheet;
 public class TimeSheetApp {
 
 	public static void main(String[] args) {
-		int targetHours = 70;
-		int targetMinutes = 06;
+		int targetHours = 298;
+		int targetMinutes = 12;
 		int totalTargetTimeInMinutes = (targetHours * 60) + targetMinutes;
 		System.out.println("totalTargetTimeInMinutes : " + totalTargetTimeInMinutes);
 		
@@ -14,7 +14,7 @@ public class TimeSheetApp {
 		//System.out.println("stdDailyTimeInMinutes : "+stdDailyTimeInMinutes);
 		
 		// Approximation Advice
-		int remainingWorkDays = 8;
+		int remainingWorkDays = 32;
 		System.out.println("Remaining work days : " + remainingWorkDays);
 		int approxPerDayMinutes = totalTargetTimeInMinutes / remainingWorkDays;
 		int approxPendingMinutes = totalTargetTimeInMinutes % remainingWorkDays; 
